@@ -3,10 +3,11 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Log in</title>
+    <title>Sign in</title>
     <link rel="stylesheet" href="../css/css.css?v=<?php echo time() ?>">
 </head>
 <body>
+  <h2>Sign in</h2>
 <form class="form">
   <span class="input-span">
     <label for="email" class="label">Email</label>

@@ -8,7 +8,8 @@
 
 
         public function list() {
-            // demo 
+            $result = $this->queryControl->listProduct();
+            // include("");
         }
     }
 ?>

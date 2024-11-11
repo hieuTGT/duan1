@@ -71,4 +71,14 @@
         public $password;
         public $name;
     }
+
+    class promotions {
+        public $id;
+        public $name;
+        public $discount;
+        public $start_date;
+        public $end_date;
+        public $promotion_id;
+        public $description;
+    }
 ?>

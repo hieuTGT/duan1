@@ -74,3 +74,6 @@
     color: var(--clr);
   }
   
+h2 {
+  text-align: center;
+}

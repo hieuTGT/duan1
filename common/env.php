@@ -4,5 +4,5 @@
     define("DB_USER", "root");
     define("DB_PASS", "");
     define("DB_NAME", "duan1");
-    define("DB_URL", "");
+    define("DB_URL", "http://localhost/duan1/");
 ?>
