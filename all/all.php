@@ -1,98 +1,87 @@
 <?php
-    class brands {
-        public $id;
+    class thuonghieu {
+        public $ma_th;
         public $name;
     }
 
-    class customers {
-        public $id;
+    class khachhang {
+        public $ma_th;
         public $name;
         public $email;
         public $password;
-        public $address;
-        public $phone;
+        public $diachi;
+        public $sdt;
     }
 
-    class feedback{
-        public $id;
-        public $product_id;
-        public $customer_id;
-        public $rating;
-        public $comment;
-        public $feedback_date;
+    class binhluan{
+        public $ma_bl;
+        public $ma_sp;
+        public $ma_kh;
+        public $binhluan;
+        public $ngaybinhluan;
     }
 
-    class orders{
-        public $id;
-        public $customers_id;
-        public $order_date;
-        public $status;
+    class giohang{
+        public $ma_gh;
+        public $ma_kh;
+        public $ngaydathang;
+        public $trangthai;
     }
 
-    class orders_items{
-        public $id;
-        public $order_id;
-        public $product_id;
-        public $quantity;
-        public $price;
+    class giohang_items{
+        public $ma_gh_item;
+        public $ma_kh;
+        public $ma_sp;
+        public $soluong;
+        public $gia;
     }
 
-    class product {
-        public $id;
+    class sanpham {
+        public $ma_sp;
         public $name;
-        public $description;
-        public $price;
-        public $quantity;
+        public $mota;
+        public $gia;
+        public $soluong;
         public $image;
-        public $brand_id;
-        public $status;
+        public $ma_th;
+        public $trangthai;
     }
 
-    class product_variants {
+    class mau_sp {
         public $id;
-        public $product_id;
-        public $color;
+        public $ma_sp;
+        public $mau;
         public $image;
-        public $quantity;
+        public $soluong;
     }
     
-
-    class users{
-        public $id;
-        public $customer_id;
-        public $email;
-        public $password;
-        public $name;
+    class khuyenmai {
+        public $ma_km;
+        public $name;   
+        public $ngaybatdau;
+        public $ngayketthuc;
+        public $ma_giohang;
+        public $giamgia;
+        public $mota;
     }
 
-    class promotions {
-        public $id;
-        public $name;
-        public $discount;
-        public $start_date;
-        public $end_date;
-        public $promotion_id;
-        public $description;
+    class dungluong_sp{
+        public $ma_dungluong;
+        public $ma_sp;
+        public $mau_sp;
+        public $dungluong;
+        public $gia;
+        public $soluong;
     }
 
-    class product_variants1{
-        public $id;
-        public $product_id;
-        public $color; 
-        public $storage;
-        public $price;
-        public $quantity;
-        public $image;
-    }
-
-    class completed_order {
-        public $id;
-        public $order_id;
-        public $customer_id;
-        public $total;
-        public $completed_day;
-        public $payment_method;
-        public $address;
-        public $promotion_id;
+    class donhang {
+        public $ma_dh;
+        public $ma_giohang;
+        public $ma_kh;
+        public $ma_km  
+        public $ngayhoanthanh;
+        public $phuongthuc;
+        public $diachi;
+        public $tong;
     }
 ?>
