@@ -4,12 +4,6 @@
         public $name;
     }
 
-    class categories {
-        public $id;
-        public $name;
-        public $description;
-    }
-
     class customers {
         public $id;
         public $name;
@@ -51,7 +45,6 @@
         public $quantity;
         public $image;
         public $brand_id;
-        public $category_id;
         public $status;
     }
 
@@ -80,5 +73,26 @@
         public $end_date;
         public $promotion_id;
         public $description;
+    }
+
+    class product_variants1{
+        public $id;
+        public $product_id;
+        public $color; 
+        public $storage;
+        public $price;
+        public $quantity;
+        public $image;
+    }
+
+    class completed_order {
+        public $id;
+        public $order_id;
+        public $customer_id;
+        public $total;
+        public $completed_day;
+        public $payment_method;
+        public $address;
+        public $promotion_id;
     }
 ?>
