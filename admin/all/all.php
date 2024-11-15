@@ -78,7 +78,7 @@
         public $ma_dh;
         public $ma_giohang;
         public $ma_kh;
-        public $ma_km  
+        public $ma_km;
         public $ngayhoanthanh;
         public $phuongthuc;
         public $diachi;
