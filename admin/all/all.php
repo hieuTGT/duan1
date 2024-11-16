@@ -48,7 +48,7 @@
     }
 
     class mau_sp {
-        public $id;
+        public $ma_mau;
         public $ma_sp;
         public $mau;
         public $image;
